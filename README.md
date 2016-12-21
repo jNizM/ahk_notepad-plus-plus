@@ -60,3 +60,7 @@ RegWrite REG_SZ, HKCR, AutoHotkeyScript\Shell\Edit\Command,, C:\Program Files (x
 ## Downloads
 * **[AutoHotkey](https://autohotkey.com/download/ "AutoHotkey Downloads")** (Current Version)
 * **[Notepad++](https://notepad-plus-plus.org/download/ "Notepad++ - Current Version")** (Current Version)
+
+
+## Donations
+[Donations are appreciated if I could help you](https://www.paypal.me/smithz)
