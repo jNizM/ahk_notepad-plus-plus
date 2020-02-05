@@ -11,9 +11,9 @@ tested up to Notepad++ v7.8.3 (64-bit)
 - `Restart` Notepad++
 
 * **Default Theme** (
-[Download](../master/userDefineLang/default/userDefineLang_AHK.xml) | [Preview](https://raw.githubusercontent.com/jNizM/ahk_notepad-plus-plus/master/userDefineLang/default/udl_default.png) )  
+[Download](../master/userDefineLang/default/userDefineLang_AHK.xml) | [Preview](../master/userDefineLang/default/udl_default.png) )  
 * **Lazy Theme** (
-[Download](../master/userDefineLang/lazy/userDefineLang_AHK.xml) | [Preview](https://raw.githubusercontent.com/jNizM/ahk_notepad-plus-plus/master/userDefineLang/lazy/udl_lazy.png) )
+[Download](../master/userDefineLang/lazy/userDefineLang_AHK.xml) | [Preview](../master/userDefineLang/lazy/udl_lazy.png) )
 
 ---
 
@@ -27,7 +27,7 @@ tested up to Notepad++ v7.8.3 (64-bit)
 - (Recommendation: From 2th character, Function completion & Function parameters hint on input)
 
 * **Autocompletion** (
-[Download](../master/autocomplete/AutoHotkey.xml) | [Preview](https://raw.githubusercontent.com/jNizM/ahk_notepad-plus-plus/master/autocomplete/autocomplete.png) )
+[Download](../master/autocomplete/AutoHotkey.xml) | [Preview](../master/autocomplete/autocomplete.png) )
 
 ---
 
