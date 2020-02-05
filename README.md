@@ -1,12 +1,14 @@
 # Setup Notepad++ for AutoHotkey
-tested up to Notepad++ v6.9.1
+tested up to Notepad++ v7.8.3 (64-bit)
 
 ## Syntax-Highlighting
-1. Download `userDefineLang_AHK.xml` (as raw)
-2. Save it to the right location `(C:\Program Files (x86)\Notepad++\userDefineLang_AHK.xml)`
-3. Start Notepad++ and click on Menu `Language --> Define your language`
-4. `Import` your userDefineLang
-5. `Restart` Notepad++
+- Download `userDefineLang_AHK.xml` (as raw)
+- Save it to the right location:
+  - 32-Bit `(C:\Program Files (x86)\Notepad++\)`
+  - 64-Bit `(C:\Program Files\Notepad++\)`
+- Start Notepad++ and click on Menu `Language -> User Defined Language -> Define your language...`
+- `Import` your userDefineLang_AHK.xml
+- `Restart` Notepad++
 
 * **Default Theme** (
 [Download](../master/userDefineLang/default/userDefineLang_AHK.xml) | [Preview](https://raw.githubusercontent.com/jNizM/ahk_notepad-plus-plus/master/userDefineLang/default/udl_default.png) )  
@@ -16,11 +18,13 @@ tested up to Notepad++ v6.9.1
 ---
 
 ## Auto-Completion
-1. Download `AutoHotkey.xml` (as raw)
-2. Save it to the right location `(C:\Program Files (x86)\Notepad++\plugins\APIs\AutoHotkey.xml)`
-3. Start Notepad++ and click on Menu `Settings --> Preferences`
-4. Click on `Auto-Completion` and activate `Enable auto-completion on each input`
-5. (Recommendation: From 2th character - Function completion - Function parameters hint on input)
+- Download `AutoHotkey.xml` (as raw)
+- Save it to the right location:
+  - 32-Bit `(C:\Program Files (x86)\Notepad++\autoCompletion\)`
+  - 64-Bit `(C:\Program Files\Notepad++\autoCompletion\)`
+- Start Notepad++ and click on Menu `Settings -> Preferences`
+- Click on `Auto-Completion` and activate `Enable auto-completion on each input`
+- (Recommendation: From 2th character, Function completion & Function parameters hint on input)
 
 * **Autocompletion** (
 [Download](../master/autocomplete/AutoHotkey.xml) | [Preview](https://raw.githubusercontent.com/jNizM/ahk_notepad-plus-plus/master/autocomplete/autocomplete.png) )
@@ -28,10 +32,18 @@ tested up to Notepad++ v6.9.1
 ---
 
 ## Plugins
-1. Download PlugIns
-2. Save it to the right location `Notepad++\plugins\`  
+- Start Notepad++ and click on Menu `Plugins -> Plugins Admin...`
+- Check the box for the plugins you want to install
+- Click `Install`
+
+Alternative:
+- Download PlugIns
+- Save it to the right location:
+  - 32-Bit `(C:\Program Files (x86)\Notepad++\plugins)`
+  - 64-Bit `(C:\Program Files\Notepad++\plugins\)`
+
 Notepad++ loads plugins at startup. To load a new plugin, you can either close and restart Notepad++,  
-or use the `Settings --> Import --> Import plugin` command.
+or use the `Settings -> Import -> Import plugin(s)...` command.
 
 **Useful Plug-In's**
 * [AutoSave](https://sites.google.com/site/fstellari/nppplugins/) allows to automatically save the currently open files based on a timer schedule.
@@ -41,7 +53,7 @@ or use the `Settings --> Import --> Import plugin` command.
 ---
 
 ## Set Notepad++ as default Editor for AutoHotkey Scripts
-(`Right Click --> Edit Script`)
+(`Right Click -> Edit Script`)
 
 ##### With a *.reg File
 ```
