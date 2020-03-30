@@ -232,6 +232,7 @@
         <KeyWord name="Capacity"/>
         <KeyWord name="CapsLock"/>
         <KeyWord name="Caption"/>
+        <KeyWord name="Case"/>
         <KeyWord name="Catch" func="no">
             <Overload retVal="">
                 <Param name="OutputVar"/>
@@ -2120,6 +2121,11 @@
         <KeyWord name="Suspend" func="no">
             <Overload retVal="">
                 <Param name="Mode"/>
+            </Overload>
+        </KeyWord>
+        <KeyWord name="Switch" func="no">
+            <Overload retVal="">
+                <Param name="SwitchValue"/>
             </Overload>
         </KeyWord>
         <KeyWord name="SysGet" func="no">
