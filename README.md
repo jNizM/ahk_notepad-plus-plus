@@ -1,5 +1,5 @@
 # Setup Notepad++ for AutoHotkey
-tested up to Notepad++ v7.8.3 (64-bit)
+tested up to Notepad++ v7.9.1 (64-bit)
 
 ## Syntax-Highlighting
 - Download `userDefineLang_AHK.xml` (as raw)
@@ -45,7 +45,7 @@ Alternative:
 Notepad++ loads plugins at startup. To load a new plugin, you can either close and restart Notepad++,  
 or use the `Settings -> Import -> Import plugin(s)...` command.
 
-**Useful Plug-In's**
+**Useful Plugins**
 * [AutoSave](https://sites.google.com/site/fstellari/nppplugins/) allows to automatically save the currently open files based on a timer schedule.
 * [RunMe](https://sites.google.com/site/fstellari/nppplugins/) allows to execute the currently open file, based on its shell association.
 * [TextFX](http://sourceforge.net/projects/npp-plugins/files/TextFX/) brings a number of useful features.
