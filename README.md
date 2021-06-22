@@ -1,11 +1,12 @@
 # Setup Notepad++ for AutoHotkey
-tested up to Notepad++ v7.9.1 (64-bit)
+tested up to Notepad++ v8.1 (64-bit)
 
 ## Syntax-Highlighting
 - Download `userDefineLang_AHK.xml` (as raw)
 - Save it to the right location:
   - 32-Bit `(C:\Program Files (x86)\Notepad++\)`
   - 64-Bit `(C:\Program Files\Notepad++\)`
+  - as User `(%AppData%\Notepad++\)`
 - Start Notepad++ and click on Menu `Language -> User Defined Language -> Define your language...`
 - `Import` your userDefineLang_AHK.xml
 - `Restart` Notepad++
@@ -41,6 +42,7 @@ Alternative:
 - Save it to the right location:
   - 32-Bit `(C:\Program Files (x86)\Notepad++\plugins)`
   - 64-Bit `(C:\Program Files\Notepad++\plugins\)`
+  - as User `(%AppData%\Notepad++\plugins\)`
 
 Notepad++ loads plugins at startup. To load a new plugin, you can either close and restart Notepad++,  
 or use the `Settings -> Import -> Import plugin(s)...` command.
@@ -55,7 +57,7 @@ or use the `Settings -> Import -> Import plugin(s)...` command.
 ## Set Notepad++ as default Editor for AutoHotkey Scripts
 (`Right Click -> Edit Script`)
 
-##### With a *.reg File
+##### With a *.reg File (save as and run)
 ```
 Windows Registry Editor Version 5.00
  
