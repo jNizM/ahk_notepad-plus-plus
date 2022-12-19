@@ -1,5 +1,5 @@
 # Setup Notepad++ for AutoHotkey
-tested up to Notepad++ v8.1 (64-bit)
+tested with Notepad++ v8.4.7 (64-bit)
 
 ## Syntax-Highlighting
 - Download `userDefineLang_AHK.xml` (as raw)
@@ -62,11 +62,11 @@ or use the `Settings -> Import -> Import plugin(s)...` command.
 Windows Registry Editor Version 5.00
  
 [HKEY_CLASSES_ROOT\AutoHotkeyScript\Shell\Edit\Command]
-@="C:\\Program Files (x86)\\Notepad++\\notepad++.exe %1"
+@="\"C:\\Program Files\\Notepad++\\notepad++.exe\" \"%1\""
 ```
 ##### With AutoHotkey (*.ahk)
 ```autohotkey
-RegWrite REG_SZ, HKCR, AutoHotkeyScript\Shell\Edit\Command,, C:\Program Files (x86)\Notepad++\notepad++.exe `%1
+RegWrite REG_SZ, HKCR, AutoHotkeyScript\Shell\Edit\Command,, C:\Program Files\Notepad++\notepad++.exe `%1
 ```
 
 ---
@@ -74,6 +74,10 @@ RegWrite REG_SZ, HKCR, AutoHotkeyScript\Shell\Edit\Command,, C:\Program Files (x
 ## Downloads
 * **[AutoHotkey](https://autohotkey.com/download/ "AutoHotkey Downloads")** (Current Version)
 * **[Notepad++](https://notepad-plus-plus.org/download/ "Notepad++ - Current Version")** (Current Version)
+
+
+## Forum
+* **[AutoHotkey](https://www.autohotkey.com/boards/viewtopic.php?f=88&t=50)**
 
 
 ## Donations
