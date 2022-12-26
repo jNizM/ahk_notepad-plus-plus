@@ -3,12 +3,9 @@ tested with Notepad++ v8.4.7 (64-bit)
 
 ## Syntax-Highlighting
 - Download `userDefineLang_AHK.xml` (as raw)
-- Save it to the right location:
-  - 32-Bit `(C:\Program Files (x86)\Notepad++\)`
-  - 64-Bit `(C:\Program Files\Notepad++\)`
-  - as User `(%AppData%\Notepad++\)`
-- Start Notepad++ and click on Menu `Language -> User Defined Language -> Define your language...`
-- `Import` your userDefineLang_AHK.xml
+- Open your download folder
+- Start Notepad++ and click on Menu `Language -> User Defined Language -> Open User Defined Language folder...`
+- Move `userDefineLang_AHK.xml` from your download folder to this folder
 - `Restart` Notepad++
 
 * **Default Theme** (
