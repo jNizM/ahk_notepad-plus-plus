@@ -1,89 +1,115 @@
-[center][b][color=#168013][size=200][url=https://github.com/jNizM/ahk_notepad-plus-plus]Setup Notepad++ for AutoHotkey[/url][/size][/color][/b][/center]
-[center](tested up to Notepad++ v8.1.9 - x64)[/center]
+[center][b][color=#168013][size=200]Set up Notepad++ for AutoHotkey[/size][/color][/b][/center]
+[center]( [url=https://github.com/jNizM/ahk_notepad-plus-plus]Github[/url] - Tested with Notepad++ v8.4.8 64-bit )[/center]
 
 
-[b][size=150][color=#3FB137]Syntax-Highlighting[/color][/size][/b]
+[b][size=150][color=#3FB137]Syntax Highlighting[/color][/size][/b]
 [hr][/hr]
 [list]
-[*][b]Download[/b] [c]userDefineLang_AHK.xml[/c] as raw (Right-click and choosing save as target...)
-[*][b]Save it[/b] to the right location
+[*] Download [c]userDefineLang_AHK.xml[/c] (right-click the download link and choose [c]Save link as[/c])
 [list]
-[*][b]32-Bit:[/b] [c]C:\Program Files (x86)\Notepad++\userDefineLang_AHK.xml[/c]
-[*][b]64-Bit:[/b] [c]C:\Program Files\Notepad++\userDefineLang_AHK.xml[/c]
-[*][b]User:[/b] [c]%AppData%\Notepad++\userDefineLang_AHK.xml[/c]
+[*] [url=https://github.com/jNizM/ahk_notepad-plus-plus/raw/master/userDefineLang/default/userDefineLang_AHK.xml]Download[/url]) | [url=https://github.com/jNizM/ahk_notepad-plus-plus/raw//master/userDefineLang/default/udl_default.png]Preview[/url] [i](Default theme)[/i]
+[*] [url=https://github.com/jNizM/ahk_notepad-plus-plus/raw/master/userDefineLang/lazy/userDefineLang_AHK.xml]Download[/url] | [url=https://github.com/jNizM/ahk_notepad-plus-plus/raw/master/userDefineLang/lazy/udl_lazy.png]Preview[/url] [i](Lazy theme)[/i]
 [/list]
-[*][b]Start[/b] Notepad++ and click on Menu [c]Language -> Define your language[/c]
-[*][b]Import[/b] your userDefineLang
-[*][b]Restart[/b] Notepad++
+[*] Open your download folder
+[*] Start Notepad++ and click on menu [c]Language -> User Defined Language -> Open User Defined Language folder...[/c]
+[*] Move [c]userDefineLang_AHK.xml[/c] from your download folder to this folder
+[*] Restart Notepad++
 [/list]
-
-* [url=https://raw.githubusercontent.com/jNizM/ahk_notepad-plus-plus/master/userDefineLang/default/userDefineLang_AHK.xml]Default Theme[/url] ([url=https://raw.githubusercontent.com/jNizM/ahk_notepad-plus-plus/master/userDefineLang/default/udl_default.png]Preview[/url])
-* [url=https://raw.githubusercontent.com/jNizM/ahk_notepad-plus-plus/master/userDefineLang/lazy/userDefineLang_AHK.xml]Lazy Theme[/url] ([url=https://raw.githubusercontent.com/jNizM/ahk_notepad-plus-plus/master/userDefineLang/lazy/udl_lazy.png]Preview[/url])
 
 
 
 [b][size=150][color=#3FB137]Auto-Completion[/color][/size][/b]
 [hr][/hr]
 [list]
-[*][b]Download[/b] [c]AutoHotkey.xml[/c] as raw (Right-click and choosing save as target...)
-[*][b]Save it[/b] to the right location
+[*] Download [c]AutoHotkey.xml[/c] (right-click the download link and choose [c]Save link as[/c])
 [list]
-[*][b]32-Bit:[/b] [c]C:\Program Files (x86)\Notepad++\autoCompletion\AutoHotkey.xml[/c]
-[*][b]64-Bit:[/b] [c]C:\Program Files\Notepad++\autoCompletion\AutoHotkey.xml[/c]
+  [*] [url=https://github.com/jNizM/ahk_notepad-plus-plus/raw/master/autocomplete/AutoHotkey.xml]Download[/url] | [url=https://github.com/jNizM/ahk_notepad-plus-plus/raw/master/autocomplete/autocomplete.png]Preview[/url]
 [/list]
-[*][b]Click[/b] on [c]Auto-Completion[/c] and activate [c]Enable auto-completion on each input[/c] (recommendation: From 2th character, Function completion, Function parameters hint on input)
-[*][b]Restart[/b] Notepad++
+[*] Save it to the right location:
+[list]
+  [*] 32-Bit [c](C:\Program Files (x86)\Notepad++\autoCompletion\)[/c]
+  [*] 64-Bit [c](C:\Program Files\Notepad++\autoCompletion\)[/c]
+[/list]
+[*] Start Notepad++ and click on menu [c]Settings -> Preferences[/c]
+[*] Click on [c]Auto-Completion[/c] and activate [c]Enable auto-completion on each input[/c]
+[*] (Recommendation: From 2th character, Function completion & Function parameters hint on input)
 [/list]
 
-* [url=https://raw.githubusercontent.com/jNizM/ahk_notepad-plus-plus/master/autocomplete/AutoHotkey.xml]AutoComplete[/url] ([url=https://raw.githubusercontent.com/jNizM/ahk_notepad-plus-plus/master/autocomplete/autocomplete.png]Preview[/url])
 
 
-
-[b][size=150][color=#3FB137]Plugins[/color][/size][/b]
+[b][size=150][color=#3FB137]Useful Notepad++ Plugins[/color][/size][/b]
 [hr][/hr]
-Use the [c]Plugins -> Plugin Manager[/c]
-
-If the Plug-In is not available throw the Plugin Manager Menu use the following steps to install a Plugin:
+These plugins may be useful when using Notepad++ to edit AutoHotkey scripts:
 [list]
-[*][b]Download[/b] your Plugin
-[*][b]Save it[/b] to the right location
-[list]
-[*][b]32-Bit:[/b] [c]C:\Program Files (x86)\Notepad++\plugins\[/c]
-[*][b]64-Bit:[/b] [c]C:\Program Files\Notepad++\plugins\[/c]
-[*][b]User:[/b] [c]%AppData%\Notepad++\plugins\[/c]
-[/list]
-[*][b]Restart[/b] Notepad++
+[*] [url=https://github.com/francostellari/NppPlugins]AutoSave[/url] - [i]automatically save the currently open files based on a timer schedule.[/i]
+[*] [url=https://github.com/francostellari/NppPlugins]RunMe[/url] - [i]execute the currently open file, based on its shell association.[/i]
 [/list]
 
-[b]Useful Plugins[/b]
-* [url=https://sites.google.com/site/fstellari/nppplugins/]AutoSave[/url] (x86 / x64) allows to automatically save the currently open files based on a timer schedule.
-* [url=https://sites.google.com/site/fstellari/nppplugins/]RunMe[/url] (x86 / x64) allows to execute the currently open file, based on its shell association.
-* [url=https://sourceforge.net/projects/npp-plugins/files/TextFX/]TextFX[/url] (x86) brings a number of useful features.
-
-More Plugins available [url=https://github.com/notepad-plus-plus/nppPluginList#readme]here[/url] and [url=https://sites.google.com/site/fstellari/nppplugins/]here[/url]
-
-
-
-[size=150][b][color=#3FB137]Default Editor[/color][/b][/size][hr][/hr]Set Notepad++ as default Editor for AutoHotkey Scripts
+[b][size=115][color=#3FB137]Install Notepad++ Plugins[/color][/size][/b]
+You can install Notepad++ plugins by using the Notepad++ plugin manager:
 [list]
-[*][b]32-Bit:[/b]
-[list]
-[*][b]AHK:[/b] [c]RegWrite REG_SZ, HKCR, AutoHotkeyScript\Shell\Edit\Command,, C:\Program Files (x86)\Notepad++\notepad++.exe `%1[/c]
-[*][b]CMD:[/b] [c]REG ADD HKCR\AutoHotkeyScript\Shell\Edit\Command /ve /t REG_SZ /d ^%SystemRoot^%"\Program Files (x86)\Notepad++\notepad++.exe %1" /f[/c]
+[*] Start Notepad++ and click on menu [c]Plugins -> Plugins Admin...[/c]
+[*] Check the box for the plugins you want to install
+[*] Click [c]Install[/c]
 [/list]
-[*][b]64-Bit:[/b]
+
+Or by using Notepad++ import:
 [list]
-[*][b]AHK:[/b] [c]RegWrite REG_SZ, HKCR, AutoHotkeyScript\Shell\Edit\Command,, C:\Program Files\Notepad++\notepad++.exe `%1[/c]
-[*][b]CMD:[/b] [c]REG ADD HKCR\AutoHotkeyScript\Shell\Edit\Command /ve /t REG_SZ /d ^%SystemRoot^%"\Program Files\Notepad++\notepad++.exe %1" /f[/c]
-[/list]
+[*] Download the plugin's dll file
+[*] Start Notepad++ as administrator and click on menu [c]Settings -> Import -> Import plugin(s)...[/c]
+[*] Navigate to the downloaded dll file and click the [c]Open[/c] button
 [/list]
 
 
-[size=150][b][color=#3FB137]Others[/color][/b][/size][hr][/hr]* [url=https://autohotkey.com/boards/viewtopic.php?f=60&t=27882]Hotstrings[/url] (by Helgef) expand parameters for AHK's functions, commands and directives.
-* [url=https://autohotkey.com/boards/viewtopic.php?f=60&t=18960]FunctionList[/url] - Enable function list in Notepad++ for AHK scripts
-* [url=https://autohotkey.com/boards/viewtopic.php?f=60&t=30173]MsgBox Creator[/url] (by boiler) integrated into the editor like it is in SciTE4AutoHotkey
-* [url=https://autohotkey.com/boards/viewtopic.php?f=60&t=30829]Run[/url] (by boiler) run a script directly from Notepad++ whether or not it has ever been saved to a file
+
+[size=150][b][color=#3FB137]Set up AutoHotkey to Use Notepad++[/color][/b][/size]
+[hr][/hr]
+AutoHotkey launches an editor to edit a script when menu option [c]Edit Script[/c] or [c]Edit This Script[/c] is selected. This menu option is listed in Windows Explorer's right-click menu and in several AutoHotkey menus.
+
+[b][size=115][color=#3FB137]If AutoHotkey v2 is installed[/color][/size][/b]
+To set up AutoHotkey to use Notepad++ as script editor:
+[list]
+[*] Run [c]AutoHotkey[/c] (which launches AutoHotkey Dash) and click [c]Editor settings[/c]  
+  (Or select [c]Edit Script[/c] or [c]Edit This Script[/c] in one of the menus if an editor has not been set yet)
+[*] A dialog will appear where you can set the editor of your choice. In the Command line field, enter the following text:  
+[code]
+Notepad++.exe "%L"
+[/code]
+[*] Click [c]OK[/c]
+[/list]
+
+[b][size=115][color=#3FB137]If AutoHotkey v1 is installed and not also AutoHotkey v2[/color][/size][/b]
+To set up AutoHotkey to use Notepad++ as script editor, do one of the following:
+[list]
+[*] Create and run a .ahk file with the following contents (run as administrator):
+[code]
+RegWrite REG_SZ, HKCR, AutoHotkeyScript\Shell\Edit\Command,, Notepad++.exe "`%L"
+[/code]
+[*] Or execute at the Command Prompt (run as administrator):
+[code]
+REG ADD HKCR\AutoHotkeyScript\Shell\Edit\Command /ve /t REG_SZ /d "Notepad++.exe \"%L\"" /f
+[/code]
+[/list]
 
 
-[size=150][b][color=#3FB137]Downloads[/color][/b][/size][hr][/hr]* [url=https://autohotkey.com/download/]AutoHotkey[/url] (current version)
-* [url=https://notepad-plus-plus.org/download/]Notepad++[/url] (current version)
+
+[size=150][b][color=#3FB137]Others[/color][/b][/size]
+[hr][/hr]
+[list]
+[*] [url=https://autohotkey.com/boards/viewtopic.php?f=60&t=27882]Hotstrings[/url] - [i](by Helgef) expand parameters for AHK's functions, commands and directives.[/i]
+[*] [url=https://autohotkey.com/boards/viewtopic.php?f=60&t=18960]FunctionList[/url] - [i]enable function list in Notepad++ for AHK scripts.[/i]
+[*] [url=https://autohotkey.com/boards/viewtopic.php?f=60&t=30173]MsgBox Creator[/url] - [i](by boiler) integrated into the editor like it is in SciTE4AutoHotkey.[/i]
+[*] [url=https://autohotkey.com/boards/viewtopic.php?f=60&t=30829]Run[/url] - [i](by boiler) run a script directly from Notepad++ whether or not it has ever been saved to a file.[/i]
+[/list]
+
+
+
+[size=150][b][color=#3FB137]Downloads[/color][/b][/size]
+[hr][/hr]
+[list]
+[*] [url=https://notepad-plus-plus.org/download/]Notepad++[/url] [i](software)[/i]
+[*] [url=https://autohotkey.com/download/]AutoHotkey[/url] [i](software)[/i]
+[*] [url=../../raw/master/userDefineLang/default/userDefineLang_AHK.xml]userDefineLang_AHK.xml[/url] [i](xml file for Syntax Highlighting, [b]Default theme[/b])[/i]
+[*] [url=../../raw/master/userDefineLang/lazy/userDefineLang_AHK.xml]userDefineLang_AHK.xml[/url] [i](xml file for Syntax Highlighting, [b]Lazy theme[/b])[/i]
+[*] [url=../../raw/master/autocomplete/AutoHotkey.xml]AutoHotkey.xml[/url] [i](xml file for Auto-Complete function)[/i]
+[/list]
