@@ -7,7 +7,7 @@
 [list]
 [*] Download [c]userDefineLang_AHK.xml[/c] (right-click the download link and choose [c]Save link as[/c])
 [list]
-[*] [url=https://github.com/jNizM/ahk_notepad-plus-plus/raw/master/userDefineLang/default/userDefineLang_AHK.xml]Download[/url]) | [url=https://github.com/jNizM/ahk_notepad-plus-plus/raw//master/userDefineLang/default/udl_default.png]Preview[/url] [i](Default theme)[/i]
+[*] [url=https://github.com/jNizM/ahk_notepad-plus-plus/raw/master/userDefineLang/default/userDefineLang_AHK.xml]Download[/url] | [url=https://github.com/jNizM/ahk_notepad-plus-plus/raw//master/userDefineLang/default/udl_default.png]Preview[/url] [i](Default theme)[/i]
 [*] [url=https://github.com/jNizM/ahk_notepad-plus-plus/raw/master/userDefineLang/lazy/userDefineLang_AHK.xml]Download[/url] | [url=https://github.com/jNizM/ahk_notepad-plus-plus/raw/master/userDefineLang/lazy/udl_lazy.png]Preview[/url] [i](Lazy theme)[/i]
 [/list]
 [*] Open your download folder
