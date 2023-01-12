@@ -27,8 +27,8 @@
 [/list]
 [*] Save it to the right location:
 [list]
-  [*] 32-Bit [c](C:\Program Files (x86)\Notepad++\autoCompletion\)[/c]
-  [*] 64-Bit [c](C:\Program Files\Notepad++\autoCompletion\)[/c]
+  [*] 32-Bit: [c]C:\Program Files (x86)\Notepad++\autoCompletion\[/c]
+  [*] 64-Bit: [c]C:\Program Files\Notepad++\autoCompletion\[/c]
 [/list]
 [*] Start Notepad++ and click on menu [c]Settings -> Preferences[/c]
 [*] Click on [c]Auto-Completion[/c] and activate [c]Enable auto-completion on each input[/c]
