@@ -1,5 +1,5 @@
 # Set up Notepad++ for AutoHotkey
-Tested with Notepad++ v8.4.8 (64-bit)
+( [AHK forum](https://www.autohotkey.com/boards/viewtopic.php?f=88&t=50) - Tested with Notepad++ v8.4.8 64-bit )
 
 ---
 
@@ -18,8 +18,8 @@ Tested with Notepad++ v8.4.8 (64-bit)
 - Download `AutoHotkey.xml` (right-click the download link and choose `Save link as`)
   - [Download](../../raw/master/autocomplete/AutoHotkey.xml) | [Preview](../../raw/master/autocomplete/autocomplete.png)
 - Save it to the right location:
-  - 32-Bit `(C:\Program Files (x86)\Notepad++\autoCompletion\)`
-  - 64-Bit `(C:\Program Files\Notepad++\autoCompletion\)`
+  - 32-Bit: `C:\Program Files (x86)\Notepad++\autoCompletion\`
+  - 64-Bit: `C:\Program Files\Notepad++\autoCompletion\`
 - Start Notepad++ and click on menu `Settings -> Preferences`
 - Click on `Auto-Completion` and activate `Enable auto-completion on each input`
 - (Recommendation: From 2th character, Function completion & Function parameters hint on input)
@@ -59,17 +59,22 @@ To set up AutoHotkey to use Notepad++ as script editor:
 
 ### If AutoHotkey v1 is installed and not also AutoHotkey v2
 To set up AutoHotkey to use Notepad++ as script editor, do one of the following:
-- Create and run a .reg file with the following contents:
-  ```
-  Windows Registry Editor Version 5.00
-   
-  [HKEY_CLASSES_ROOT\AutoHotkeyScript\Shell\Edit\Command]
-  @="Notepad++.exe \"%L\""
-  ```
-- Or create and run a .ahk file with the following contents (run as administrator):
+- Create and run a .ahk file with the following contents (run as administrator):
   ```
   RegWrite REG_SZ, HKCR, AutoHotkeyScript\Shell\Edit\Command,, Notepad++.exe "`%L"
   ```
+- Or execute at the Command Prompt (run as administrator):
+  ```
+  REG ADD HKCR\AutoHotkeyScript\Shell\Edit\Command /ve /t REG_SZ /d "Notepad++.exe \"%L\"" /f
+  ```
+
+---
+
+## Others
+* [Hotstrings](https://autohotkey.com/boards/viewtopic.php?f=60&t=27882) - _(by Helgef) expand parameters for AHK's functions, commands and directives._
+* [FunctionList](https://autohotkey.com/boards/viewtopic.php?f=60&t=18960) - _enable function list in Notepad++ for AHK scripts._
+* [MsgBox Creator](https://autohotkey.com/boards/viewtopic.php?f=60&t=30173) - _(by boiler) integrated into the editor like it is in SciTE4AutoHotkey._
+* [Run](https://autohotkey.com/boards/viewtopic.php?f=60&t=30829) - _(by boiler) run a script directly from Notepad++ whether or not it has ever been saved to a file._
 
 ---
 
@@ -79,11 +84,6 @@ To set up AutoHotkey to use Notepad++ as script editor, do one of the following:
 * [userDefineLang_AHK.xml](../../raw/master/userDefineLang/default/userDefineLang_AHK.xml) _(xml file for Syntax Highlighting, **Default theme**)_
 * [userDefineLang_AHK.xml](../../raw/master/userDefineLang/lazy/userDefineLang_AHK.xml) _(xml file for Syntax Highlighting, **Lazy theme**)_
 * [AutoHotkey.xml](../../raw/master/autocomplete/AutoHotkey.xml) _(xml file for Auto-Complete function)_
-
----
-
-## Forum topics
-* AutoHotkey forum: [Setup Notepad++ for AutoHotkey](https://www.autohotkey.com/boards/viewtopic.php?f=88&t=50)
 
 ---
 
