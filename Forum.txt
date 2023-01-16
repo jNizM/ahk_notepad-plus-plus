@@ -1,5 +1,5 @@
 [center][b][color=#168013][size=200]Set up Notepad++ for AutoHotkey[/size][/color][/b][/center]
-[center]( [url=https://github.com/jNizM/ahk_notepad-plus-plus]Github[/url] - Tested with Notepad++ v8.4.8 64-bit )[/center]
+[center]( [url=https://github.com/jNizM/ahk_notepad-plus-plus]GitHub[/url] - Tested with Notepad++ v8.4.8 64-bit )[/center]
 
 
 [b][size=150][color=#3FB137]Syntax Highlighting[/color][/size][/b]
